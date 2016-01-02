@@ -9,16 +9,10 @@ namespace Zmeyka
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point();
-            p1.x = 28;
-            p1.y = 4;
-            p1.sym = '#';
+            Point p1 = new Point(28, 4, '#');
             p1.Draw();
 
-            Point p2 = new Point();
-            p2.x = 15;
-            p2.y = 14;
-            p2.sym = '*';
+            Point p2 = new Point(15, 14, '*');
             p2.Draw();
 
             Console.ReadLine();
